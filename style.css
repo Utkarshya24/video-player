@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.video_player {
+  position: relative;
+  margin-left: 20%;
+  margin-top: 6%;
+  width: 845px;
+  height: 480px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.video_controllers {
+  position: absolute;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+
+}
+
+.theater {
+  width: 1000px;
+}
+
+.allicons {
+  width: 100%;
+  height: 480px;
+  z-index: 0;
+}
+
+.picture-in-picture {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+.picture-in-picture img{
+  width: 30px;
+  height: 30px;
+}
+
+.video_player_input {
+  position: absolute;
+  margin-top: 420px;
+  left:10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.range-field {
+  -webkit-appearance: none;
+  width: 820px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  height: 5px;
+  background: red;
+}
+
+.range-field::-webkit-slider-thumb {
+  background: green;
+  -webkit-appearance: none;
+  width:10px;
+  border-radius: 50%;
+  height: 10px;
+}
+
+.bottum-icons {
+  width: 100%;
+  height: 34px;
+  display:inline-flex;
+  align-items: center;
+  left: 0;
+  margin-top: 440px;
+  padding: 20px;
+
+}
+.bottum-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.left-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.play-button-arrowhead {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.right-arrow {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.share{
+  width: 30px;
+  height: 30px;
+  margin-left: 500px;
+}
+.closed-caption-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.settings {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.rectangle {
+  width: 40px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.rectangle img {
+  height: 50px;
+  width: 40px;
+}
+.fullscreen {
+  width: 30px;
+  height: 30px;
+  justify-content: right;
+  text-align: right;
+  margin-left: 10px;
+}
